@@ -9,7 +9,7 @@ Proyek ini disusun sebagai proyek pengganti UAS mata kuliah Kecerdasan Buatan, D
 
 ---
 
-## Anggota Kelompok
+## Anggota Kelompok 5 (Rabu)
 
 | Nama | NPM |
 |---|---|
@@ -17,18 +17,6 @@ Proyek ini disusun sebagai proyek pengganti UAS mata kuliah Kecerdasan Buatan, D
 | Muhammad Pavel | 2306242363 |
 | R. Aisha Syauqi Ramadhani | 2306250554 |
 | Zhafira Zahra Alfarisy | 2306250636 |
-
----
-
-## Informasi Mata Kuliah
-
-| Informasi | Detail |
-|---|---|
-| Mata Kuliah | Kecerdasan Buatan |
-| Semester | Genap 2025/2026 |
-| Dosen Pengampu | Muhammad Firdaus Syawaludin Lubis, S.T., M.T., Ph.D. |
-| Departemen | Teknik Komputer |
-| Universitas | Universitas Indonesia |
 
 ---
 
@@ -141,7 +129,7 @@ CNN-Rabu-5/
 
 ---
 
-## Progress Saat Ini
+## Progress Saat Ini (Senin, 18 Mei 2026)
 
 ### Selesai
 - Penentuan topik proyek
