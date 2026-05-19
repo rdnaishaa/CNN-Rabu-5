@@ -113,18 +113,12 @@ Performa model akan dievaluasi menggunakan:
 ```text
 CNN-Rabu-5/
 │
-├── notebooks/
-│   ├── preprocessing.ipynb
-│   ├── baseline_cnn.ipynb
-│   └── transfer_learning.ipynb
-│
-├── models/
-│
-├── results/
-│
-├── reports/
-│
-└── README.md
+├── README.md
+├── requirements.txt
+├── TugasUASAI_Kelompok5.ipynb
+├── progress_report_kelompok5.pdf 
+└── metadata/
+    └── metadata.json
 ```
 
 ---
