@@ -146,11 +146,31 @@ CNN-Rabu-5/
 
 ---
 
+## Progress Saat Ini (Selasa, 19 Mei 2026)
+
+### Selesai
+- Mengerjakan laporan dari bab 1 hingga bab 4
+- Memperbaiki Pre-read GitHub
+
+### Sedang Dikerjakan
+- Implementasi baseline CNN
+- Pipeline preprocessing data
+- Training awal model
+
+### Rencana Selanjutnya
+- Implementasi transfer learning
+- Hyperparameter tuning
+- Evaluasi model
+- Melanjutkan bab berikutnya
+
+---
+
 ## Hasil Sementara
 Eksperimen saat ini berfokus pada:
 - Validasi pipeline loading dataset
 - Persiapan arsitektur baseline CNN
 - Implementasi preprocessing awal
+- Laporan eksperimen dapat ditelusuri dari bab 1 hingga bab 4
 
 Hasil training dan evaluasi model akan ditambahkan pada progress berikutnya.
 
