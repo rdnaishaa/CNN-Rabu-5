@@ -115,7 +115,7 @@ CNN-Rabu-5/
 │
 ├── README.md
 ├── requirements.txt
-├── TugasUASAI_Kelompok5.ipynb
+├── Tugas_UAS_AI_Kelompok5.ipynb
 ├── progress_report_kelompok5.pdf 
 └── metadata/
     └── metadata.json
