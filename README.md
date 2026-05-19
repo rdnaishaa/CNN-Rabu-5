@@ -123,7 +123,7 @@ CNN-Rabu-5/
 
 ---
 
-## Progress Saat Ini (Senin, 18 Mei 2026)
+## Progress Kemarin (Senin, 18 Mei 2026)
 
 ### Selesai
 - Penentuan topik proyek
@@ -151,6 +151,7 @@ CNN-Rabu-5/
 ### Selesai
 - Mengerjakan laporan dari bab 1 hingga bab 4
 - Memperbaiki Pre-read GitHub
+- Membuat arsitektur model Baseline CNN dan MobileNetV2
 
 ### Sedang Dikerjakan
 - Implementasi baseline CNN
