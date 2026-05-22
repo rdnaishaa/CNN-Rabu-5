@@ -1,0 +1,215 @@
+{
+  "kode_kelompok": "K05",
+  "topik_pilihan": 1,
+  "nama_topik": "Convolutional Neural Network (CNN)",
+  "judul_proyek": "Deep Learning-Based Plant Disease Identification Using Convolutional Neural Networks",
+  "abstrak_singkat": "Proyek ini bertujuan untuk mengembangkan sistem identifikasi penyakit daun tanaman menggunakan pendekatan Deep Learning berbasis Convolutional Neural Network (CNN). Dataset yang digunakan berasal dari PlantVillage Dataset dengan fokus pada klasifikasi penyakit daun tomat. Proyek ini membandingkan model baseline CNN sederhana dengan pendekatan transfer learning menggunakan MobileNetV2 untuk mengevaluasi performa klasifikasi citra penyakit tanaman.",
+  "metode_ai": [
+    { 
+      "nama": "Custom CNN",
+      "peran": "baseline",
+      "varian": "CNN sederhana dengan 3 convolution blocks",
+      "catatan": "Digunakan sebagai baseline model awal"
+    },
+    {
+      "nama": "MobileNetV2",
+      "peran": "utama",
+      "varian": "Transfer Learning pretrained ImageNet",
+      "catatan": "Digunakan sebagai model utama untuk meningkatkan performa klasifikasi"
+    }
+  ],
+  "frameworks": [
+    {
+      "nama": "TensorFlow",
+      "versi": "2.x",
+      "kegunaan": "Framework utama untuk training dan evaluasi model"
+    },
+    {
+      "nama": "Google Colab",
+      "versi": "Cloud Environment",
+      "kegunaan": "Lingkungan training model berbasis GPU"
+    }
+  ],
+  "datasets": [
+    {
+      "nama": "PlantVillage Dataset",
+      "tipe": "publik",
+      "sumber": "Kaggle",
+      "url_sumber_publik": "https://www.kaggle.com/datasets/emmarex/plantdisease",
+      "jumlah_sampel": 7223,
+      "jumlah_kelas": 5,
+      "proses_akuisisi_mandiri": "",
+      "peran_di_proyek": "Dataset utama untuk training dan evaluasi model klasifikasi penyakit daun tanaman",
+      "spek_rl": null
+    }
+  ],
+  "metrik_utama": [
+    "Accuracy",
+    "F1-score",
+    "Confusion Matrix"
+  ],
+  "klaim_bonus": [
+    "B1"
+  ],
+"anggota": [
+  {
+    "nama": "Nabiel Harits Utomo",
+    "npm": "2306267044",
+    "peran_utama": "Model Evaluation & Metadata Management",
+    "focus_area": [
+      "Preprocessing pipeline",
+      "Model evaluation",
+      "Metadata preparation",
+      "CNN implementation"
+    ],
+    "konsep_dikuasai_implementasi": [
+      "Image preprocessing",
+      "CNN notebook workflow",
+      "Accuracy/loss visualization",
+      "JSON formatting",
+      "Confusion matrix evaluation"
+    ],
+    "konsep_dikuasai_teori": [
+      "CNN architecture",
+      "Performance metrics",
+      "Deep Learning workflow",
+      "Model evaluation"
+    ],
+    "bagian_laporan": [
+      "Evaluasi",
+      "Bab 4"
+    ],
+    "bagian_kode": [
+      "Training notebook",
+      "Preprocessing pipeline",
+      "Evaluation pipeline",
+      "metadata.json"
+    ]
+  },
+
+  {
+    "nama": "Muhammad Pavel",
+    "npm": "2306242363",
+    "peran_utama": "Model Training & Workflow Management",
+    "focus_area": [
+      "CNN training",
+      "Training workflow",
+      "Baseline CNN optimization",
+      "Repository management"
+    ],
+    "konsep_dikuasai_implementasi": [
+      "TensorFlow workflow",
+      "Model training",
+      "Training configuration",
+      "CNN notebook workflow",
+      "Baseline CNN implementation"
+    ],
+    "konsep_dikuasai_teori": [
+      "CNN workflow",
+      "Training process",
+      "Overfitting",
+      "Deep Learning pipeline"
+    ],
+    "bagian_laporan": [
+      "Bab 2",
+      "Bab 3"
+    ],
+    "bagian_kode": [
+      "Training notebook",
+      "Training configuration",
+      "Repository structure",
+      "Baseline CNN"
+    ]
+  },
+
+  {
+    "nama": "R. Aisha Syauqi Ramadhani",
+    "npm": "2306250554",
+    "peran_utama": "Documentation & Dataset Visualization",
+    "focus_area": [
+      "README preparation",
+      "Dataset visualization",
+      "Preprocessing documentation",
+      "CNN implementation"
+    ],
+    "konsep_dikuasai_implementasi": [
+      "Dataset visualization",
+      "Markdown formatting",
+      "Image preprocessing",
+      "CNN notebook workflow"
+    ],
+    "konsep_dikuasai_teori": [
+      "Data preprocessing",
+      "Image augmentation",
+      "CNN input preparation",
+      "Documentation workflow"
+    ],
+    "bagian_laporan": [
+      "Dataset",
+      "Preprocessing"
+    ],
+    "bagian_kode": [
+      "Notebook preprocessing",
+      "README",
+      "Dataset visualization"
+    ]
+  },
+
+  {
+    "nama": "Zhafira Zahra Alfarisy",
+    "npm": "2306250636",
+    "peran_utama": "Dataset Management & Model Analysis",
+    "focus_area": [
+      "Dataset organization",
+      "Dataset loading",
+      "Training visualization",
+      "CNN implementation"
+    ],
+    "konsep_dikuasai_implementasi": [
+      "Dataset handling",
+      "Dataset loading",
+      "Loss visualization",
+      "CNN notebook workflow"
+    ],
+    "konsep_dikuasai_teori": [
+      "Performance metrics",
+      "Overfitting",
+      "CNN evaluation",
+      "Dataset management"
+    ],
+    "bagian_laporan": [
+      "Bab 1",
+      "Hasil Sementara"
+    ],
+    "bagian_kode": [
+      "Training notebook",
+      "Dataset organization",
+      "Dataset loading",
+      "Evaluation visualization"
+    ]
+  }
+  ],
+  "tautan": {
+    "github": "https://github.com/rdnaishaa/CNN-Rabu-5.git",
+    "colab": "https://colab.research.google.com/drive/1S5DHog0kLNIxx7i38JDAK-lgno9KpOnV?usp=sharing",
+    "dataset_mandiri": null,
+    "video_demo": null
+  },
+  "ai_assistant_usage": {
+    "digunakan": true,
+    "tools": [
+      "ChatGPT"
+    ],
+    "bagian": [
+      "Memberikan opini dan analisis terkait dataset yang digunakan",
+      "Berdiskusi dengan AI untuk merancang struktur dan repositori proyek",
+      "Memvalidasi hasil draf README dan dokumentasi teknis",
+      "Mengevaluasi performa dan struktur baseline arsitektur CNN",
+      "Menyusun dan meninjau keselarasan metadata dokumen JSON",
+      "Melakukan review berkala terhadap penyusunan progress report"
+    ],
+    "estimasi_persentase": 10
+  }
+}
+
+
