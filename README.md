@@ -164,14 +164,40 @@ CNN-Rabu-5/
 - Evaluasi model
 - Melanjutkan bab berikutnya
 
----
-
 ## Hasil Sementara
 Eksperimen saat ini berfokus pada:
 - Validasi pipeline loading dataset
 - Persiapan arsitektur baseline CNN
 - Implementasi preprocessing awal
 - Laporan eksperimen dapat ditelusuri dari bab 1 hingga bab 4
+
+## Progress Saat Ini (Sabtu, 23 Mei 2026)
+
+### Selesai
+- Penyempurnaan bab 1 laporan final
+- Penyusunan arsitektur transfer learning MobileNetV2
+- Implementasi confusion matrix dan classification report
+- Penyusunan bagian Error Analysis dan evaluasi model
+- Sinkronisasi metadata proyek dengan Bab 4 laporan
+- Penyusunan outline presentasi final proyek
+
+### Sedang Dikerjakan
+- Penyusunan laporan final 
+- Finalisasi implementasi *MobileNetV2*
+- Hyperparameter tuning
+- Penyempurnaan visualisasi hasil eksperimen
+- Finalisasi notebook eksperimen dan evaluasi model
+- Persiapan slide presentasi final
+
+### Rencana Selanjutnya
+- Menambahkan data test terpisah untuk evaluasi akhir model
+- Membandingkan performa baseline CNN dan MobileNetV2
+- Finalisasi confusion matrix dan hasil evaluasi akhir
+- Penyempurnaan laporan final dan pengecekan format
+- Finalisasi PPT presentasi dan persiapan demo presentasi
+
+### Hasil Sementara
+Hasil eksperimen awal menunjukkan bahwa model *baseline CNN* mampu mencapai akurasi *training* sebesar 88,74% dan akurasi validasi sekitar 92% setelah proses training selama 10 epoch. Grafik accuracy/loss menunjukkan proses training yang cukup stabil dengan indikasi overfitting yang masih dapat dikendalikan menggunakan dropout layer dan data augmentation. Selain itu, hasil confusion matrix menunjukkan bahwa model mampu melakukan klasifikasi dengan baik pada kelas Healthy, namun masih mengalami kesalahan prediksi pada beberapa kelas dengan karakteristik visual yang mirip seperti Early Blight dan Late Blight.
 
 Hasil training dan evaluasi model akan ditambahkan pada progress berikutnya.
 
