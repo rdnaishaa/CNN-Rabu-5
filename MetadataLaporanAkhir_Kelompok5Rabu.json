@@ -1,0 +1,231 @@
+{
+  "kode_kelompok": "K05",
+  "topik_pilihan": 1,
+  "nama_topik": "Convolutional Neural Network (CNN)",
+  "judul_proyek": "Deep Learning-Based Plant Disease Identification Using Convolutional Neural Networks",
+  "abstrak_singkat": "Proyek ini bertujuan untuk mengembangkan sistem identifikasi penyakit daun tanaman menggunakan pendekatan Deep Learning berbasis Convolutional Neural Network (CNN). Dataset yang digunakan berasal dari PlantVillage Dataset dengan fokus pada klasifikasi 5 jenis penyakit daun tomat. Proyek ini membandingkan performa baseline CNN dengan pendekatan transfer learning dan fine-tuning menggunakan MobileNetV2 untuk meningkatkan performa klasifikasi citra penyakit tanaman.",
+
+  "metode_ai": [
+    {
+      "nama": "Custom CNN",
+      "peran": "baseline",
+      "varian": "CNN 3 blok konvolusi dengan filter 32, 64, dan 128, menggunakan Dropout 0.5 dan input 224x224",
+      "catatan": "Digunakan sebagai baseline model awal yang dilatih selama 10 epoch menggunakan Adam Optimizer."
+    },
+    {
+      "nama": "MobileNetV2",
+      "peran": "utama",
+      "varian": "Transfer Learning pretrained ImageNet dengan fine-tuning pada beberapa layer terakhir",
+      "catatan": "Digunakan sebagai model utama untuk meningkatkan performa klasifikasi citra daun tomat melalui transfer learning dan fine-tuning."
+    }
+  ],
+
+  "frameworks": [
+    {
+      "nama": "TensorFlow / Keras",
+      "versi": "2.x",
+      "kegunaan": "Framework utama untuk preprocessing data, arsitektur model, training, dan evaluasi model CNN serta MobileNetV2."
+    },
+    {
+      "nama": "Google Colab",
+      "versi": "Cloud Environment",
+      "kegunaan": "Lingkungan eksperimen dan training model berbasis GPU cloud."
+    },
+    {
+      "nama": "Matplotlib & Scikit-learn",
+      "versi": "Terbaru",
+      "kegunaan": "Digunakan untuk visualisasi accuracy/loss history, confusion matrix, classification report, dan evaluasi performa model."
+    }
+  ],
+
+  "datasets": [
+    {
+      "nama": "PlantVillage Dataset (Tomato Disease)",
+      "tipe": "publik",
+      "sumber": "Kaggle",
+      "url_sumber_publik": "https://www.kaggle.com/datasets/emmarex/plantdisease",
+      "jumlah_sampel": 7223,
+      "jumlah_kelas": 5,
+      "proses_akuisisi_mandiri": "",
+      "peran_di_proyek": "Dataset utama yang digunakan untuk klasifikasi 5 kelas penyakit daun tomat, yaitu Healthy, Early Blight, Late Blight, Leaf Mold, dan Septoria Leaf Spot.",
+      "spek_rl": null
+    }
+  ],
+
+  "metrik_utama": [
+    "Accuracy",
+    "Precision",
+    "Recall",
+    "F1-score",
+    "Confusion Matrix",
+    "Training/Validation Loss Curve"
+  ],
+
+  "klaim_bonus": [
+    "B1"
+  ],
+
+  "anggota": [
+    {
+      "nama": "Nabiel Harits Utomo",
+      "npm": "2306267044",
+      "peran_utama": "Model Evaluation & Metadata Management",
+      "focus_area": [
+        "Preprocessing pipeline",
+        "Model evaluation",
+        "Confusion matrix analysis",
+        "Metadata preparation"
+      ],
+      "konsep_dikuasai_implementasi": [
+        "Image preprocessing",
+        "Evaluation pipeline",
+        "Accuracy/loss visualization",
+        "Confusion matrix evaluation",
+        "Classification report"
+      ],
+      "konsep_dikuasai_teori": [
+        "CNN architecture",
+        "Performance metrics",
+        "Model evaluation",
+        "Deep Learning workflow"
+      ],
+      "bagian_laporan": [
+        "BAB 2",
+        "BAB 4",
+        "Evaluasi",
+        "Error Analysis"
+      ],
+      "bagian_kode": [
+        "Preprocessing pipeline",
+        "Evaluation pipeline",
+        "Training notebook",
+        "metadata.json"
+      ]
+    },
+    {
+      "nama": "Muhammad Pavel",
+      "npm": "2306242363",
+      "peran_utama": "Model Training & Transfer Learning",
+      "focus_area": [
+        "CNN training",
+        "Transfer learning MobileNetV2",
+        "Fine-tuning",
+        "Training workflow"
+      ],
+      "konsep_dikuasai_implementasi": [
+        "TensorFlow workflow",
+        "Model training",
+        "Transfer learning",
+        "Fine-tuning MobileNetV2",
+        "Training callbacks"
+      ],
+      "konsep_dikuasai_teori": [
+        "CNN workflow",
+        "Transfer learning",
+        "Overfitting",
+        "Deep Learning pipeline"
+      ],
+      "bagian_laporan": [
+        "BAB 3",
+        "Metodologi Implementasi"
+      ],
+      "bagian_kode": [
+        "Training notebook",
+        "Training configuration",
+        "MobileNetV2 implementation",
+        "Fine-tuning workflow"
+      ]
+    },
+    {
+      "nama": "R. Aisha Syauqi Ramadhani",
+      "npm": "2306250554",
+      "peran_utama": "Documentation & Preprocessing",
+      "focus_area": [
+        "Dataset visualization",
+        "Data preprocessing",
+        "Data augmentation",
+        "README preparation"
+      ],
+      "konsep_dikuasai_implementasi": [
+        "Dataset visualization",
+        "Image preprocessing",
+        "Data augmentation",
+        "Markdown formatting"
+      ],
+      "konsep_dikuasai_teori": [
+        "Data preprocessing",
+        "Image augmentation",
+        "CNN input preparation",
+        "Documentation workflow"
+      ],
+      "bagian_laporan": [
+        "BAB 1",
+        "Dataset",
+        "Preprocessing"
+      ],
+      "bagian_kode": [
+        "Notebook preprocessing",
+        "Dataset visualization",
+        "README"
+      ]
+    },
+    {
+      "nama": "Zhafira Zahra Alfarisy",
+      "npm": "2306250636",
+      "peran_utama": "Dataset Management & Visualization",
+      "focus_area": [
+        "Dataset organization",
+        "Dataset loading",
+        "Training visualization",
+        "Evaluation visualization"
+      ],
+      "konsep_dikuasai_implementasi": [
+        "Dataset handling",
+        "Dataset loading",
+        "Loss visualization",
+        "Training visualization"
+      ],
+      "konsep_dikuasai_teori": [
+        "Performance metrics",
+        "Overfitting",
+        "CNN evaluation",
+        "Dataset management"
+      ],
+      "bagian_laporan": [
+        "BAB 1",
+        "BAB 3",
+        "Hasil Sementara"
+      ],
+      "bagian_kode": [
+        "Dataset loading",
+        "Dataset organization",
+        "Evaluation visualization",
+        "Training notebook"
+      ]
+    }
+  ],
+
+  "tautan": {
+    "github": "https://github.com/rdnaishaa/CNN-Rabu-5.git",
+    "colab": "https://colab.research.google.com/drive/1arQUrIQ1QtqBqx5VVRc9prN0uAEUS9vx?usp=sharing",
+    "dataset_mandiri": null,
+    "video_demo": "https://www.youtube.com/watch?v=qpot8_KNFDI"
+  },
+
+  "ai_assistant_usage": {
+    "digunakan": true,
+    "tools": [
+      "ChatGPT",
+      "Google Gemini",
+      "Claude"
+    ],
+    "bagian": [
+      "Diskusi evaluasi model CNN dan MobileNetV2",
+      "Review dokumentasi proyek dan laporan",
+      "Validasi workflow training dan preprocessing",
+      "Analisis hasil eksperimen dan visualisasi",
+      "Penyusunan metadata proyek"
+    ],
+    "estimasi_persentase": 10
+  }
+}
